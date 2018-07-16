@@ -12,4 +12,11 @@ class ExplorePhotoCellCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var likeOfCount: UILabel!
+    
+    func configureCell(_ photo: Photo) {
+        if photo.photoImage != nil {
+            imageView.image = photo.photoImage
+        }
+    }
+    
 }

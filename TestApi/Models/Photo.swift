@@ -10,25 +10,31 @@ import UIKit
 import Alamofire
 
 class Photo {
-    var photoName: String
-    var photoImageUrl: String
-    var photoImage: UIImage
+    var photoName: String!
+    var photoImageUrl: String!
+    var photoImage: UIImage?
+  //  var photoLikes: String
     
-    init(name: String , imageUrl: String , image: UIImage) {
+    init(name: String , imageUrl: String) {
         self.photoName = name
         self.photoImageUrl = imageUrl
-        self.photoImage = image
+       // self.photoLikes = likes
     }
     
     func downloadPhotoImage(completed: @escaping DownloadComplete) {
         request(self.photoImageUrl).responseData { (response) in
             if let data = response.result.value {
-                if let image = UIImage(data: data) {
-                    self.photoImage = image
+                if let images = UIImage(data: data) {
+                    self.photoImage = images
                 }
             }
             completed()
         }
+
     }
     
+  
 }
+
+
+

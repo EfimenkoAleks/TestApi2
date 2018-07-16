@@ -12,12 +12,12 @@
 		0409E5F220F91BCB00270926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0409E5F120F91BCB00270926 /* Assets.xcassets */; };
 		0409E5F520F91BCB00270926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0409E5F320F91BCB00270926 /* LaunchScreen.storyboard */; };
 		0409E5FF20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E5FE20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift */; };
-		0409E60120F9334D00270926 /* ExploreCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E60020F9334D00270926 /* ExploreCollectionViewController.swift */; };
 		0409E60320F9616900270926 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E60220F9616900270926 /* PreviewViewController.swift */; };
 		04309B7E20FB737B009877F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04309B7D20FB737B009877F1 /* Constants.swift */; };
 		04309B8320FB88CA009877F1 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04309B8220FB88CA009877F1 /* Photo.swift */; };
 		04309BA420FB936F009877F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04309BA320FB936F009877F1 /* Default-568h@2x.png */; };
 		04309BA720FB94F0009877F1 /* DataServis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04309BA620FB94F0009877F1 /* DataServis.swift */; };
+		0457886220FC95E200F63AB6 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457886120FC95E200F63AB6 /* PhotoViewController.swift */; };
 		0460B0BB20FA4B46003EFAFD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0460B0BA20FA4B46003EFAFD /* Podfile */; };
 		0460B0BD20FA6EEE003EFAFD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0460B0BC20FA6EEE003EFAFD /* Alamofire.framework */; };
 		5B038B355F920353438E5398 /* Pods_TestApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FC1B5954249C08BD647E0F /* Pods_TestApi.framework */; };
@@ -43,12 +43,12 @@
 		0409E5F420F91BCB00270926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0409E5F620F91BCB00270926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0409E5FE20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePhotoCellCollectionViewCell.swift; sourceTree = "<group>"; };
-		0409E60020F9334D00270926 /* ExploreCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewController.swift; sourceTree = "<group>"; };
 		0409E60220F9616900270926 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		04309B7D20FB737B009877F1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04309B8220FB88CA009877F1 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		04309BA320FB936F009877F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		04309BA620FB94F0009877F1 /* DataServis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServis.swift; sourceTree = "<group>"; };
+		0457886120FC95E200F63AB6 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		0460B0BA20FA4B46003EFAFD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0460B0BC20FA6EEE003EFAFD /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FC1B5954249C08BD647E0F /* Pods_TestApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,8 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				0409E5FE20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift */,
-				0409E60020F9334D00270926 /* ExploreCollectionViewController.swift */,
 				0409E60220F9616900270926 /* PreviewViewController.swift */,
+				0457886120FC95E200F63AB6 /* PhotoViewController.swift */,
 			);
 			path = Controlers;
 			sourceTree = "<group>";
@@ -283,8 +283,8 @@
 				04309B8320FB88CA009877F1 /* Photo.swift in Sources */,
 				04309B7E20FB737B009877F1 /* Constants.swift in Sources */,
 				0409E5EB20F91BC800270926 /* AppDelegate.swift in Sources */,
-				0409E60120F9334D00270926 /* ExploreCollectionViewController.swift in Sources */,
 				0409E5FF20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift in Sources */,
+				0457886220FC95E200F63AB6 /* PhotoViewController.swift in Sources */,
 				04309BA720FB94F0009877F1 /* DataServis.swift in Sources */,
 				0409E60320F9616900270926 /* PreviewViewController.swift in Sources */,
 			);
