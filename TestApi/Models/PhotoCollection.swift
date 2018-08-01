@@ -1,24 +1,25 @@
 //
-//  Photo.swift
+//  PhotoCollection.swift
 //  TestApi
 //
-//  Created by mac on 15.07.2018.
+//  Created by mac on 17.07.2018.
 //  Copyright © 2018 mac. All rights reserved.
 //
 
 import UIKit
 import Alamofire
 
-class Photo {
-    var photoName: String!
+class PhotoCollection {
+    
+    var photoTitl: String!
     var photoImageUrl: String!
     var photoImage: UIImage?
-  //  var photoLikes: String
+    var photoImageUrlBig: String!
     
-    init(name: String , imageUrl: String) {
-        self.photoName = name
+    init(titl: String , imageUrl: String , photoBig: String) {
+        self.photoTitl = titl
         self.photoImageUrl = imageUrl
-       // self.photoLikes = likes
+        self.photoImageUrlBig = photoBig
     }
     
     func downloadPhotoImage(completed: @escaping DownloadComplete) {
@@ -30,11 +31,10 @@ class Photo {
             }
             completed()
         }
-
+        
     }
     
-  
+   
+    
+    
 }
-
-
-

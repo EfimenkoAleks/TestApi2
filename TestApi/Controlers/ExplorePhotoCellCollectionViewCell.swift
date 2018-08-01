@@ -11,9 +11,8 @@ import UIKit
 class ExplorePhotoCellCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var likeOfCount: UILabel!
     
-    func configureCell(_ photo: Photo) {
+    func configureCell(_ photo: PhotoCollection) {
         if photo.photoImage != nil {
             imageView.image = photo.photoImage
         }
