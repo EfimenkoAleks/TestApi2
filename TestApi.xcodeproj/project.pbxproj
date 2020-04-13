@@ -3,24 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04009EB52227F557009AA36F /* HelperMetods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04009EB42227F557009AA36F /* HelperMetods.swift */; };
 		0409E5EB20F91BC800270926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E5EA20F91BC800270926 /* AppDelegate.swift */; };
 		0409E5F020F91BC800270926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0409E5EE20F91BC800270926 /* Main.storyboard */; };
 		0409E5F220F91BCB00270926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0409E5F120F91BCB00270926 /* Assets.xcassets */; };
 		0409E5F520F91BCB00270926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0409E5F320F91BCB00270926 /* LaunchScreen.storyboard */; };
 		0409E5FF20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E5FE20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift */; };
 		0409E60320F9616900270926 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E60220F9616900270926 /* PreviewViewController.swift */; };
+		0411853522F0384E0071A7DC /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411853422F0384E0071A7DC /* MenuCell.swift */; };
+		0420A18D237EE35000AA0443 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420A18C237EE35000AA0443 /* PageViewController.swift */; };
 		04309B7E20FB737B009877F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04309B7D20FB737B009877F1 /* Constants.swift */; };
 		04309BA420FB936F009877F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04309BA320FB936F009877F1 /* Default-568h@2x.png */; };
 		0457886220FC95E200F63AB6 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457886120FC95E200F63AB6 /* PhotoViewController.swift */; };
 		0460B0BB20FA4B46003EFAFD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0460B0BA20FA4B46003EFAFD /* Podfile */; };
 		0460B0BD20FA6EEE003EFAFD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0460B0BC20FA6EEE003EFAFD /* Alamofire.framework */; };
+		047FFFCE23867FA900630CA2 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FFFCD23867FA900630CA2 /* ImageScrollView.swift */; };
+		049FDBF222EF012100C1E5EC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049FDBF122EF012100C1E5EC /* MenuViewController.swift */; };
+		049FDBF622EF27D800C1E5EC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049FDBF522EF27D800C1E5EC /* RootViewController.swift */; };
 		04F9E43C20FE57D9004A89E3 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9E43B20FE57D9004A89E3 /* PhotoCollection.swift */; };
 		04F9E43E20FE5AA2004A89E3 /* DataServisForControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9E43D20FE5AA2004A89E3 /* DataServisForControls.swift */; };
 		5B038B355F920353438E5398 /* Pods_TestApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FC1B5954249C08BD647E0F /* Pods_TestApi.framework */; };
+		CE0466F5237F219A00AE39B9 /* ChoisPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0466F4237F219A00AE39B9 /* ChoisPhoto.swift */; };
+		CE89B94022F219FB00D89FC9 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89B93F22F219FB00D89FC9 /* PhotoCell.swift */; };
+		CE98B8F222F631CB00F67E3C /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98B8F122F631CB00F67E3C /* PinterestLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04009EB42227F557009AA36F /* HelperMetods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperMetods.swift; sourceTree = "<group>"; };
 		0409E5E720F91BC800270926 /* TestApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0409E5EA20F91BC800270926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0409E5EF20F91BC800270926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,15 +54,23 @@
 		0409E5F620F91BCB00270926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0409E5FE20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePhotoCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		0409E60220F9616900270926 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		0411853422F0384E0071A7DC /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		0420A18C237EE35000AA0443 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		04309B7D20FB737B009877F1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04309BA320FB936F009877F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0457886120FC95E200F63AB6 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		0460B0BA20FA4B46003EFAFD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0460B0BC20FA6EEE003EFAFD /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		047FFFCD23867FA900630CA2 /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		049FDBF122EF012100C1E5EC /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		049FDBF522EF27D800C1E5EC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		04F9E43B20FE57D9004A89E3 /* PhotoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
 		04F9E43D20FE5AA2004A89E3 /* DataServisForControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServisForControls.swift; sourceTree = "<group>"; };
 		95FC1B5954249C08BD647E0F /* Pods_TestApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAA68E911AA00FE9EAC2865 /* Pods-TestApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestApi/Pods-TestApi.debug.xcconfig"; sourceTree = "<group>"; };
+		CE0466F4237F219A00AE39B9 /* ChoisPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoisPhoto.swift; sourceTree = "<group>"; };
+		CE89B93F22F219FB00D89FC9 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		CE98B8F122F631CB00F67E3C /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		FA256DB7A237E72E7FDB5912 /* Pods-TestApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestApi/Pods-TestApi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,9 +124,11 @@
 		04309B7F20FB87B4009877F1 /* Controlers */ = {
 			isa = PBXGroup;
 			children = (
-				0409E5FE20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift */,
-				0409E60220F9616900270926 /* PreviewViewController.swift */,
+				049FDBF122EF012100C1E5EC /* MenuViewController.swift */,
 				0457886120FC95E200F63AB6 /* PhotoViewController.swift */,
+				0409E60220F9616900270926 /* PreviewViewController.swift */,
+				0420A18C237EE35000AA0443 /* PageViewController.swift */,
+				049FDBF522EF27D800C1E5EC /* RootViewController.swift */,
 			);
 			path = Controlers;
 			sourceTree = "<group>";
@@ -119,6 +139,9 @@
 				0409E5EE20F91BC800270926 /* Main.storyboard */,
 				0409E5F120F91BCB00270926 /* Assets.xcassets */,
 				0409E5F320F91BCB00270926 /* LaunchScreen.storyboard */,
+				0409E5FE20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift */,
+				0411853422F0384E0071A7DC /* MenuCell.swift */,
+				CE89B93F22F219FB00D89FC9 /* PhotoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -127,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				04309B7D20FB737B009877F1 /* Constants.swift */,
+				04009EB42227F557009AA36F /* HelperMetods.swift */,
+				CE98B8F122F631CB00F67E3C /* PinterestLayout.swift */,
 			);
 			path = Utilitis;
 			sourceTree = "<group>";
@@ -135,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				04F9E43B20FE57D9004A89E3 /* PhotoCollection.swift */,
+				CE0466F4237F219A00AE39B9 /* ChoisPhoto.swift */,
+				047FFFCD23867FA900630CA2 /* ImageScrollView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,6 +227,7 @@
 				TargetAttributes = {
 					0409E5E620F91BC800270926 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -242,17 +270,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TestApi/Pods-TestApi-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestApi/Pods-TestApi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestApi/Pods-TestApi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestApi/Pods-TestApi-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestApi/Pods-TestApi-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6DD2AE0EAF4109D3C80A1110 /* [CP] Check Pods Manifest.lock */ = {
@@ -280,12 +307,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE98B8F222F631CB00F67E3C /* PinterestLayout.swift in Sources */,
+				0420A18D237EE35000AA0443 /* PageViewController.swift in Sources */,
+				CE89B94022F219FB00D89FC9 /* PhotoCell.swift in Sources */,
 				04309B7E20FB737B009877F1 /* Constants.swift in Sources */,
+				04009EB52227F557009AA36F /* HelperMetods.swift in Sources */,
 				0409E5EB20F91BC800270926 /* AppDelegate.swift in Sources */,
+				049FDBF622EF27D800C1E5EC /* RootViewController.swift in Sources */,
 				0409E5FF20F9331300270926 /* ExplorePhotoCellCollectionViewCell.swift in Sources */,
+				049FDBF222EF012100C1E5EC /* MenuViewController.swift in Sources */,
 				0457886220FC95E200F63AB6 /* PhotoViewController.swift in Sources */,
+				CE0466F5237F219A00AE39B9 /* ChoisPhoto.swift in Sources */,
 				04F9E43C20FE57D9004A89E3 /* PhotoCollection.swift in Sources */,
 				04F9E43E20FE5AA2004A89E3 /* DataServisForControls.swift in Sources */,
+				047FFFCE23867FA900630CA2 /* ImageScrollView.swift in Sources */,
+				0411853522F0384E0071A7DC /* MenuCell.swift in Sources */,
 				0409E60320F9616900270926 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 364PACBHLP;
 				INFOPLIST_FILE = TestApi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,7 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Efimenko.TestApi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,7 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 364PACBHLP;
 				INFOPLIST_FILE = TestApi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,7 +495,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Efimenko.TestApi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

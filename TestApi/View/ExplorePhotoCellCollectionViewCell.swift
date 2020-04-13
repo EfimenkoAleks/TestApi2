@@ -12,9 +12,10 @@ class ExplorePhotoCellCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!
     
-    func configureCell(_ photo: PhotoCollection) {
+    func configureCell(_ photo: Photo) {
         if photo.photoImage != nil {
             imageView.image = photo.photoImage
+            
         }
     }
     
